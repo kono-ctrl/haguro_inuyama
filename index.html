@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>犬山市羽黒成海西 / 資料埋め込み</title>
+  <style>
+    :root { --bg: #f5f5f2; --card: #ffffff; --line: #d9d3c6; --text: #1f1f1a; --accent: #8a6f3a; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; background: var(--bg); color: var(--text); }
+    header { position: sticky; top: 0; background: #191815; color: #fff; padding: 14px 20px; border-bottom: 3px solid var(--accent); z-index: 10; }
+    h1 { margin: 0; font-size: 18px; line-height: 1.45; }
+    .sub { margin-top: 4px; font-size: 12px; color: #ddd0b5; }
+    .container { max-width: 1040px; margin: 0 auto; padding: 16px; }
+    .panel { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px; margin-bottom: 14px; }
+    .panel h2 { margin: 0 0 8px; font-size: 18px; }
+    .panel p { margin: 4px 0 10px; font-size: 13px; line-height: 1.6; color: #4b463f; }
+    .item { border: 1px solid #ece7dc; border-radius: 8px; padding: 10px; margin-bottom: 12px; background: #fcfbf8; }
+    .item h3 { margin: 0 0 6px; font-size: 15px; }
+    .meta { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12px; color: #685f53; margin-bottom: 8px; }
+    .meta a { color: #2f5f84; }
+    iframe { width: 100%; border: 1px solid var(--line); border-radius: 8px; background: #fff; min-height: 420px; }
+    .img-wrap { display: grid; gap: 10px; }
+    img { max-width: 100%; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+    .fallback-link { font-size: 12px; margin-top: 6px; }
+    footer { margin: 20px 0 40px; font-size: 12px; color: #5c564f; text-align: center; }
+    @media (max-width: 700px) { h1 { font-size: 16px; } .container { padding: 10px; } .panel { padding: 12px; } iframe { min-height: 320px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>犬山市羽黒成海西（公開用）資料埋め込みページ</h1>
+      <div class="sub">2026/09/04～05 分を再整理。主要資料を1画面から確認できます。</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>01. 主要報告書（A4横）</h2>
+      <div class="item">
+        <h3>窓口調査報告（A4横）</h3>
+        <div class="meta">
+          <span><a href="./03_犬山市窓口調査報告_誘致可能業種・建築要件_A4横.html" target="_blank" rel="noopener">新規タブで開く</a></span>
+          <span><a href="./pdf/03_犬山市窓口調査報告_誘致可能業種・建築要件_A4横.pdf" target="_blank" rel="noopener">PDF版</a></span>
+        </div>
+        <iframe src="./03_犬山市窓口調査報告_誘致可能業種・建築要件_A4横.html" title="窓口調査報告（A4横）"></iframe>
+        <div class="fallback-link">ブラウザによっては埋め込み表示されない場合があります。その場合は上のリンクから開いてご確認ください。</div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>02. 受領パンフレット（主要原本）</h2>
+      <div class="item">
+        <h3>犬山市・市街化調整区域建築（窓口受領、3ページ版）</h3>
+        <div class="meta"><a href="./source/犬山市_集積ゾーン・市街化調整区域建築_窓口受領_2026-09-05.pdf" target="_blank" rel="noopener">原本PDFを開く</a></div>
+        <iframe src="./source/犬山市_集積ゾーン・市街化調整区域建築_窓口受領_2026-09-05.pdf#page=1&amp;view=FitH&amp;toolbar=0&amp;navpanes=0" title="窓口受領パンフレット"></iframe>
+        <div class="img-wrap">
+          <img src="./assets/窓口パンフレット_集積ゾーン1頁_印刷用.png" alt="集積ゾーン1頁">
+          <img src="./assets/窓口パンフレット_添付1頁_印刷用.png" alt="窓口パンフレット 添付1頁">
+          <img src="./assets/窓口パンフレット_添付2頁_印刷用.png" alt="窓口パンフレット 添付2頁">
+          <img src="./assets/窓口パンフレット_PDF2頁_印刷用.png" alt="窓口パンフレット PDF2頁">
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>03. 条例・基準（12号ルート）</h2>
+      <div class="item">
+        <h3>条例・指定基準・業務処理フロー</h3>
+        <div class="meta">
+          <span><a href="./source/犬山市_34条12号条例_公式.pdf" target="_blank" rel="noopener">条例 PDF</a></span>
+          <span><a href="./source/犬山市_34条12号区域指定基準_公式.pdf" target="_blank" rel="noopener">指定基準 PDF</a></span>
+          <span><a href="./source/犬山市_34条12号区域指定事務処理要領_公式.pdf" target="_blank" rel="noopener">事務処理要領</a></span>
+          <span><a href="./source/犬山市_34条12号申請添付書類_公式.pdf" target="_blank" rel="noopener">申請添付書類</a></span>
+        </div>
+        <iframe src="./source/犬山市_34条12号条例_公式.pdf#view=FitH&amp;toolbar=0&amp;navpanes=0" title="条例・指定基準資料"></iframe>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>04. 公図・地番・用途</h2>
+      <div class="item">
+        <h3>公図（取得4点）</h3>
+        <div class="meta">
+          <span><a href="./source/犬山市羽黒成海西４不動産登記（地図）2026090400747834.PDF" target="_blank" rel="noopener">公図4番</a></span>
+          <span><a href="./source/犬山市羽黒成海西４０－２不動産登記（地図）2026090400740625.PDF" target="_blank" rel="noopener">公図40番2</a></span>
+          <span><a href="./source/犬山市羽黒成海西４５不動産登記（地図）2026090400740626.PDF" target="_blank" rel="noopener">公図45番</a></span>
+          <span><a href="./source/犬山市羽黒成海西６不動産登記（地図）2026090400744518.PDF" target="_blank" rel="noopener">公図6番</a></span>
+        </div>
+      </div>
+      <div class="item">
+        <h3>用途・地番資料・インフラ</h3>
+        <div class="meta">
+          <span><a href="./source/犬山9_羽黒成海西地区_地番一覧_公式.pdf" target="_blank" rel="noopener">地番一覧（公式）</a></span>
+          <span><a href="./source/羽黒用途地域_受領資料.pdf" target="_blank" rel="noopener">用途地域</a></span>
+          <span><a href="./source/犬山市公共下水道区域図_R5_公式.pdf" target="_blank" rel="noopener">下水道区域図</a></span>
+          <span><a href="./source/犬山市_内水ハザードマップ100年_公式.pdf" target="_blank" rel="noopener">内水ハザード</a></span>
+          <span><a href="./source/犬山市_外水ハザードマップ_公式.pdf" target="_blank" rel="noopener">外水ハザード</a></span>
+        </div>
+      </div>
+      <iframe src="./source/犬山市羽黒成海西４不動産登記（地図）2026090400747834.PDF#view=FitH&amp;toolbar=0&amp;navpanes=0" title="公図4番"></iframe>
+    </section>
+
+    <section class="panel">
+      <h2>05. 開発許可・審査関連（参考）</h2>
+      <div class="item">
+        <h3>愛知県開発審査会基準</h3>
+        <div class="meta"><a href="./source/愛知県_開発審査会基準_令和5年1月_公式.pdf" target="_blank" rel="noopener">愛知県開発審査会基準（令和5年1月版）</a></div>
+        <iframe src="./source/愛知県_開発審査会基準_令和5年1月_公式.pdf#view=FitH&amp;toolbar=0&amp;navpanes=0" title="開発審査会基準"></iframe>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>06. 元素材（画像）</h2>
+      <div class="item img-wrap">
+        <img src="./assets/犬山9_区域図.png" alt="犬山9区域図">
+        <img src="./assets/犬山9_区域図_横向き.png" alt="犬山9区域図横向き">
+        <img src="./assets/aerial_north.jpg" alt="航空写真 北">
+        <img src="./assets/aerial_east.jpg" alt="航空写真 東">
+        <img src="./assets/aerial_south.jpg" alt="航空写真 南">
+        <img src="./assets/aerial_west.jpg" alt="航空写真 西">
+      </div>
+    </section>
+
+    <footer>作成日: 2026-09-07 / 犬山市羽黒成海西_産業集積・工場誘致_061_260904</footer>
+  </main>
+</body>
+</html>
